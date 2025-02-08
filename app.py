@@ -6,9 +6,10 @@
 import streamlit as st
 import numpy as np
 import re
+import nltk
 from nltk.stem import PorterStemmer
 import pickle
-import nltk
+
 # Download NLTK stopwords
 nltk.download('stopwords')
 stopwords = set(nltk.corpus.stopwords.words('english'))
