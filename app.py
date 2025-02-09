@@ -7,6 +7,9 @@ import streamlit as st
 import numpy as np
 import re
 import nltk
+nltk.download('punkt')  # Or any other necessary corpus
+
+import nltk
 from nltk.stem import PorterStemmer
 import pickle
 
